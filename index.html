@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Фотобудка «Оскар» в аренду в Москве · Инстабудка</title>
+<meta name="description" content="Золотая фотобудка с красной бархатной шторой на ваше событие. Доставка, монтаж, администратор, печать без ограничений. Оденем в ваш бренд. Проверьте дату в WhatsApp.">
+<meta property="og:title" content="Фотобудка «Оскар» в аренду · Инстабудка">
+<meta property="og:description" content="Золотая фотобудка с бархатной шторой на ваше событие в Москве.">
+<meta property="og:image" content="img/geroy-shir.jpg">
+<meta name="theme-color" content="#24090d">
+<link rel="preload" href="fonts/CormorantSC-Light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/GoodVibesPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/geroy-shir.jpg" as="image" media="(min-width: 761px)">
+<link rel="preload" href="img/geroy-vys.jpg" as="image" media="(max-width: 760px)">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<!-- вспышка при открытии: отсчёт, как на экране будки -->
+<div class="vspyshka" data-vspyshka aria-hidden="true"><span class="vspyshka__cifra" data-otschet>3</span><span class="vspyshka__svet"></span></div>
+
+<header class="shapka">
+  <div class="wrap shapka__in">
+    <a class="shapka__logo" href="https://instabudka.ru" aria-label="Инстабудка"><img src="img/logo-instabudka-white.svg" alt="Инстабудка" width="140" height="44"></a>
+    <nav class="shapka__svyaz">
+      <a class="shapka__tel" href="tel:+74951069777">+7 495 106-97-77</a>
+      <a class="knopka knopka--kontur knopka--malaya" href="https://wa.me/79060982693" target="_blank" rel="noopener"><i class="ic" style="--i:url(icons/whatsapp-logo.svg)"></i><span>WhatsApp</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- 1. Первый экран: оффер и проверка даты в два касания -->
+<section class="geroy" id="nachalo">
+  <div class="geroy__foto" aria-hidden="true"><picture><source media="(max-width: 760px)" srcset="img/geroy-vys.jpg"><img src="img/geroy-shir.jpg" alt="" width="1672" height="941" fetchpriority="high"></picture></div>
+  <div class="wrap geroy__in">
+    <div class="geroy__tekst">
+      <p class="metka">Фотоавтомат «Оскар» · аренда в Москве</p>
+      <h1><span class="h1__kaps">Золотая фотобудка</span> <em>с бархатной шторой на ваше событие</em></h1>
+      <p class="geroy__pod">Привезём, соберём и оставим администратора на весь вечер. Короб, штору и ленту оденем в ваш бренд.</p>
+      <form class="data-bystro" data-bystro novalidate>
+        <label class="data-bystro__pole">
+          <span>Дата события</span>
+          <b class="data-pokaz" data-pokaz>выберите день</b>
+          <input type="date" name="data" data-data required aria-label="Дата события">
+        </label>
+        <button class="knopka" type="submit"><i class="ic" style="--i:url(icons/whatsapp-logo.svg)"></i><span>Проверить дату</span></button>
+      </form>
+      <p class="geroy__ili">Ответим в WhatsApp, свободна ли будка. Или позвоните <a href="tel:+74951069777">+7 495 106-97-77</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 2. Расчёт: лента печатается с выбором -->
+<section class="razdel raschet" id="raschet">
+  <div class="wrap raschet__setka">
+    <div class="raschet__vybor">
+      <h2>Расчёт <em>на вашу дату</em></h2>
+      <p class="razdel__lid">Выберите дату, часы и оформление. Лента с расчётом уйдёт менеджеру в WhatsApp.</p>
+
+      <form data-raschet novalidate>
+        <div class="pole">
+          <label for="r-data">Дата события</label>
+          <span class="data-ramka"><b class="data-pokaz" data-pokaz>выберите день</b><input id="r-data" type="date" name="data" data-data required></span>
+          <p class="pole__oshibka" data-oshibka>Выберите дату, и мы проверим, свободна ли будка</p>
+        </div>
+        <fieldset class="pole">
+          <legend>Сколько часов</legend>
+          <div class="fishki">
+            <label class="fishka"><input type="radio" name="chasy" value="4"><span>4</span></label>
+            <label class="fishka"><input type="radio" name="chasy" value="5"><span>5</span></label>
+            <label class="fishka"><input type="radio" name="chasy" value="6" checked><span>6</span></label>
+            <label class="fishka"><input type="radio" name="chasy" value="7"><span>7</span></label>
+            <label class="fishka"><input type="radio" name="chasy" value="8"><span>8</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="pole">
+          <legend>Оформление</legend>
+          <div class="fishki">
+            <label class="fishka fishka--shir"><input type="radio" name="vid" value="классика" checked><span>Классика</span></label>
+            <label class="fishka fishka--shir"><input type="radio" name="vid" value="в нашем бренде" data-vid-brend><span>В нашем бренде</span></label>
+          </div>
+        </fieldset>
+        <ul class="vhodit-spisok" data-vhodit>
+          <li>Доставка в пределах МКАД</li>
+          <li>Монтаж до гостей и демонтаж без доплаты</li>
+          <li data-v-admin>Администратор все 6 часов</li>
+          <li>Печать лент без ограничений</li>
+          <li data-v-vid>Классика: золото и красный бархат</li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="raschet__lotok">
+      <div class="lotok" data-lotok>
+        <span class="lotok__in">
+          <span class="lotok__guba" aria-hidden="true"></span>
+          <span class="lenta" data-lenta>
+            <span class="lenta__kadr"><small>дата</small><b data-z="data">ваша дата</b></span>
+            <span class="lenta__kadr"><small>часы</small><b data-z="chasy">6</b></span>
+            <span class="lenta__kadr"><small>вид</small><b data-z="vid">классика</b></span>
+            <span class="lenta__kadr lenta__kadr--foto"><img src="img/kadr-gost.jpg" alt="" width="332" height="260"></span>
+          </span>
+        </span>
+      </div>
+      <p class="raschet__itog" data-itog>Сумму на вашу дату менеджер пришлёт в ответ</p>
+      <button class="knopka knopka--bolshaya" type="button" data-otpravit><i class="ic" style="--i:url(icons/whatsapp-logo.svg)"></i><span>Проверить дату</span></button>
+      <p class="raschet__ili">или позвоните <a href="tel:+74951069777" class="nowrap">+7 495 106-97-77</a><br>Пн–Пт 10:00–20:00</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3. В ваш бренд: имя события загорается на коробе -->
+<section class="razdel brend" id="brend">
+  <div class="wrap brend__setka">
+    <div class="brend__foto">
+      <div class="brend__kadr" data-brend-kadr>
+        <img class="shtora-foto is-on" data-shtora-foto="krasnyy" src="img/shtora/krasnyy.jpg" alt="Фотобудка «Оскар» спереди: световой короб и штора" width="1086" height="1448" loading="lazy">
+        <span class="brend__korob" data-korob aria-hidden="true">
+          <span class="korob__oreol"></span>
+          <span class="korob__panel"></span>
+          <span class="korob__tekst" data-korob-tekst>PHOTOAUTOMAT</span>
+        </span>
+      </div>
+    </div>
+    <div class="brend__tekst">
+      <h2>Оденем <em>в ваш бренд</em></h2>
+      <p class="razdel__lid">Впишите название бренда или события, и оно загорится на коробе. Цвет шторы тоже под вас.</p>
+      <label class="pole brend__vvod">
+        <span>Надпись на коробе</span>
+        <input type="text" maxlength="20" placeholder="Например, ОТП Банк" data-korob-vvod autocomplete="off">
+      </label>
+      <div class="brend__primery" role="list">
+        <button class="primer" type="button" data-primer="ОТП БАНК">ОТП Банк</button>
+        <button class="primer" type="button" data-primer="АННА & ИЛЬЯ">Анна &amp; Илья</button>
+        <button class="primer" type="button" data-primer="НОВЫЙ ГОД 2027">Новый год 2027</button>
+      </div>
+      <fieldset class="pole shtory">
+        <legend>Цвет шторы · <b data-shtora-imya>красный бархат</b></legend>
+        <div class="shtory__ryad">
+          <label class="shtora" style="--c1:#c4142a;--c2:#5a0610"><input type="radio" name="shtora" value="krasnyy" data-imya="красный бархат" checked><span></span></label>
+          <label class="shtora" style="--c1:#1f8a4c;--c2:#07301a"><input type="radio" name="shtora" value="izumrud" data-imya="изумруд"><span></span></label>
+          <label class="shtora" style="--c1:#2e46b8;--c2:#0b1240"><input type="radio" name="shtora" value="sapfir" data-imya="сапфир"><span></span></label>
+          <label class="shtora" style="--c1:#4a4648;--c2:#0c0b0c"><input type="radio" name="shtora" value="chernyy" data-imya="чёрный"><span></span></label>
+          <label class="shtora" style="--c1:#e59ac0;--c2:#8c4568"><input type="radio" name="shtora" value="rozovyy" data-imya="пудровый"><span></span></label>
+          <label class="shtora" style="--c1:#fbf4e8;--c2:#b9ad99"><input type="radio" name="shtora" value="molochnyy" data-imya="молочный"><span></span></label>
+          <label class="shtora" style="--c1:#f0d590;--c2:#8d6f34"><input type="radio" name="shtora" value="shampan" data-imya="шампань"><span></span></label>
+        </div>
+      </fieldset>
+      <p class="brend__chto">Кроме короба в бренд одеваем штору, стенки, заставки экрана и каждую ленту. Так было у ОТП Банка и Музея русского импрессионизма:</p>
+      <div class="brend__otp">
+        <figure><img src="img/brend-korob.jpg" alt="Короб с логотипом ОТП Банка" loading="lazy" width="720" height="1280"><figcaption>короб</figcaption></figure>
+        <figure><img src="img/brend-shtora.jpg" alt="Зелёная штора в цвет бренда" loading="lazy" width="720" height="1280"><figcaption>штора</figcaption></figure>
+        <figure><img src="img/brend-stenka.jpg" alt="Графика на стенке будки" loading="lazy" width="720" height="1280"><figcaption>стенки</figcaption></figure>
+        <figure><img src="img/brend-lenta.jpg" alt="Ленты с логотипами" loading="lazy" width="720" height="1280"><figcaption>лента</figcaption></figure>
+      </div>
+      <a class="knopka" href="#raschet" data-v-brend>Посчитать с таким оформлением</a>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Почему дороже: арка, фото меняется по прокрутке -->
+<section class="razdel pochemu" id="pochemu">
+  <div class="wrap">
+    <h2>Почему она <em>дороже обычной будки</em></h2>
+    <div class="pochemu__setka">
+      <div class="pochemu__arka" aria-hidden="true">
+        <span class="arka">
+          <img class="is-on" data-arka="0" src="img/detal-metall.jpg" alt="" loading="lazy">
+          <img data-arka="1" src="img/detal-korob-gen.jpg" alt="" loading="lazy">
+          <img data-arka="2" src="img/detal-barhat.jpg" alt="" loading="lazy">
+          <img data-arka="3" src="img/detal-vnutri.jpg" alt="" loading="lazy">
+          <img data-arka="4" src="img/detal-lenta-gen.jpg" alt="" loading="lazy">
+        </span>
+      </div>
+      <ol class="pochemu__spisok">
+        <li class="prichina is-on" data-prichina="0"><figure class="prichina__foto arka"><img src="img/detal-metall.jpg" alt="Стенка будки в металле цвета шампань" loading="lazy" width="422" height="507"></figure><span class="prichina__n">I</span><h3>Металл цвета шампань</h3><p>Корпус обшит металлом цвета шампань. Под светом зала он отливает золотом.</p></li>
+        <li class="prichina" data-prichina="1"><figure class="prichina__foto arka"><img src="img/detal-korob-gen.jpg" alt="Световой короб PHOTOAUTOMAT" loading="lazy" width="900" height="879"></figure><span class="prichina__n">II</span><h3>Световой короб</h3><p>Над входом горит надпись PHOTOAUTOMAT, её видно через весь зал. На событии бренда в коробе ваш логотип.</p></li>
+        <li class="prichina" data-prichina="2"><figure class="prichina__foto arka"><img src="img/detal-barhat.jpg" alt="Гость за красной бархатной шторой" loading="lazy" width="365" height="437"></figure><span class="prichina__n">III</span><h3>Красный бархат</h3><p>Гость задёргивает штору и остаётся с камерой наедине, как в старом фотоавтомате.</p></li>
+        <li class="prichina" data-prichina="3"><figure class="prichina__foto arka"><img src="img/detal-vnutri.jpg" alt="Свет и экран внутри будки" loading="lazy" width="595" height="714"></figure><span class="prichina__n">IV</span><h3>Свет и экран</h3><p>Внутри светодиодные полосы и сенсорный экран с подсказками и отсчётом.</p></li>
+        <li class="prichina" data-prichina="4"><figure class="prichina__foto arka"><img src="img/detal-lenta-gen.jpg" alt="Ленты из четырёх кадров" loading="lazy" width="800" height="1008"></figure><span class="prichina__n">V</span><h3>Лента в руки</h3><p>Из лотка на боковине гость забирает ленту из четырёх кадров. Печатаем без ограничений.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- 5. В зале: ленты фото -->
+<section class="razdel zal" id="v-zale">
+  <div class="wrap">
+    <h2>Как она стоит <em>в зале</em></h2>
+    <p class="razdel__lid">Снимки с наших событий.</p>
+    <div class="zal__lenty">
+      <figure class="polosa" data-polosa>
+        <span class="polosa__bumaga">
+          <img src="img/zal-otelya.jpg" alt="Будка в зале отеля" loading="lazy" width="960" height="1280">
+          <img src="img/gost-za-shtoroy.jpg" alt="Гость выглядывает из-за шторы" loading="lazy" width="960" height="1280">
+          <img src="img/koridor-otelya.jpg" alt="Будка в коридоре отеля" loading="lazy" width="960" height="1280">
+          <img src="img/shtory-svet.jpg" alt="Будка в зале со шторами" loading="lazy" width="720" height="1280">
+        </span>
+        <figcaption>отели и залы</figcaption>
+      </figure>
+      <figure class="polosa" data-polosa>
+        <span class="polosa__bumaga">
+          <img src="img/shtory-rozy.jpg" alt="Будка за золотыми шторами и розами" loading="lazy" width="720" height="1280">
+          <img src="img/galereya.jpg" alt="Будка в белой галерее" loading="lazy" width="720" height="1280">
+          <img src="img/galereya-rozovoe.jpg" alt="Будка в галерее, вид сбоку" loading="lazy" width="720" height="1280">
+          <img src="img/muzey-otp.jpg" alt="Будка в бренде ОТП Банка в музее" loading="lazy" width="720" height="1280">
+        </span>
+        <figcaption>галереи и музей</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 6. Для гостя -->
+<section class="razdel gost" id="gost">
+  <div class="wrap">
+    <h2>Как это <em>для гостя</em></h2>
+    <div class="gost__setka">
+      <figure class="gost__kadr">
+        <span class="gost__ramka"><video src="media/ekran-otschet.mp4" poster="media/ekran-otschet.jpg" muted loop playsinline preload="none" data-vidno aria-label="Экран будки: отсчёт и четыре кадра"></video></span>
+        <figcaption><em>Заходит за штору</em> и нажимает на экран. Отсчёт, четыре кадра подряд.</figcaption>
+      </figure>
+      <figure class="gost__kadr gost__kadr--nizhe">
+        <span class="gost__ramka"><video src="media/lenta-iz-lotka.mp4" poster="media/lenta-iz-lotka.jpg" muted loop playsinline preload="none" data-vidno aria-label="Гость забирает ленту из лотка"></video></span>
+        <figcaption><em>Забирает ленту</em> из лотка на боковине и уносит с собой.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 6½. Попробуйте: лента с камеры посетителя -->
+<section class="razdel probuy" id="probuy">
+  <div class="wrap probuy__setka">
+    <div class="probuy__tekst">
+      <h2>Попробуйте <em>прямо сейчас</em></h2>
+      <p class="razdel__lid">Четыре кадра с камеры вашего телефона или компьютера, как в будке. Лента остаётся только у вас.</p>
+      <button class="knopka" type="button" data-kamera-start><i class="ic" style="--i:url(icons/camera.svg)"></i><span>Сделать ленту</span></button>
+      <p class="probuy__oshibka" data-kamera-oshibka hidden></p>
+      <div class="probuy__deystviya" data-kamera-gotovo hidden>
+        <a class="knopka knopka--kontur" href="#" download="lenta-oskar.jpg" data-skachat>Сохранить ленту</a>
+        <button class="knopka knopka--kontur" type="button" data-kamera-zanovo>Ещё раз</button>
+        <a class="knopka" href="#raschet">Проверить дату</a>
+      </div>
+    </div>
+    <div class="probuy__budka">
+      <div class="ekran" data-ekran>
+        <video class="ekran__video" playsinline muted data-kamera-video></video>
+        <span class="ekran__podskazka" data-ekran-podskazka>Смотри в камеру!</span>
+        <span class="ekran__otschet" data-ekran-otschet></span>
+        <span class="ekran__kadry" data-ekran-kadry><i></i><i></i><i></i><i></i></span>
+        <span class="ekran__vspyshka" data-ekran-vspyshka></span>
+      </div>
+      <div class="lotok lotok--kamera">
+        <span class="lotok__in">
+          <span class="lotok__guba" aria-hidden="true"></span>
+          <img class="lenta lenta--kamera" data-lenta-kamera alt="Ваша лента из четырёх кадров" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=">
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Что входит: карточка-приглашение -->
+<section class="razdel vhodit" id="vhodit">
+  <div class="wrap">
+    <div class="priglashenie">
+      <h2>Что входит <em>в аренду</em></h2>
+      <ol class="priglashenie__spisok">
+        <li><span>I</span><h3>Привозим и собираем</h3><p>Монтаж около полутора часов. Приедем заранее, до гостей, без доплаты.</p></li>
+        <li><span>II</span><h3>Администратор всё событие</h3><p>Помогает гостям и следит за печатью. Обычно будка работает <span class="nowrap">6–8 часов</span>.</p></li>
+        <li><span>III</span><h3>Печать без ограничений</h3><p>Сколько гостей, столько лент.</p></li>
+        <li><span>IV</span><h3>Разбираем и увозим</h3><p>Поздний демонтаж тоже без доплаты.</p></li>
+      </ol>
+      <p class="priglashenie__niz">Доставка в пределах МКАД входит в аренду</p>
+    </div>
+  </div>
+</section>
+
+<!-- 8. Нам доверяли -->
+<section class="razdel doverie" id="doverie">
+  <div class="wrap">
+    <h2>Нам <em>доверяли</em></h2>
+    <ul class="cifry">
+      <li><b>13</b><span>лет на рынке</span></li>
+      <li><b>2000+</b><span>проектов</span></li>
+      <li><b>свои</b><span>производство и инженеры</span></li>
+      <li><b>2014</b><span>товарный знак с этого года</span></li>
+    </ul>
+  </div>
+  <div class="logotipy" aria-label="Клиенты: Jaguar, Land Rover, Mercedes-Benz, Samsung, Intel, L'Oréal Luxe, Альфа-Банк, PayPal, VMware, Escada, Интерфакс, Одноклассники, adidas, Rémy Martin, IBM, KIA">
+    <div class="logotipy__dorozhka" data-dorozhka>
+      <span class="logo" style="--l:url(logos/jaguar.png);--w:96px"></span>
+      <span class="logo" style="--l:url(logos/landrover.png);--w:74px"></span>
+      <span class="logo" style="--l:url(logos/mercedes.png);--w:150px"></span>
+      <span class="logo" style="--l:url(logos/samsung.svg);--w:118px"></span>
+      <span class="logo" style="--l:url(logos/intel.svg);--w:70px"></span>
+      <span class="logo" style="--l:url(logos/loreal.png);--w:92px"></span>
+      <span class="logo" style="--l:url(logos/alfabank.png);--w:116px"></span>
+      <span class="logo" style="--l:url(logos/paypal.svg);--w:44px"></span>
+      <span class="logo" style="--l:url(logos/vmware.svg);--w:110px"></span>
+      <span class="logo" style="--l:url(logos/escada.png);--w:120px"></span>
+      <span class="logo" style="--l:url(logos/interfax.png);--w:112px"></span>
+      <span class="logo" style="--l:url(logos/odnoklassniki.svg);--w:30px"></span>
+      <span class="logo" style="--l:url(logos/adidas.svg);--w:62px"></span>
+      <span class="logo" style="--l:url(logos/remymartin.png);--w:124px"></span>
+      <span class="logo" style="--l:url(logos/ibm.png);--w:80px"></span>
+      <span class="logo" style="--l:url(logos/kia.png);--w:76px"></span>
+    </div>
+  </div>
+</section>
+
+<!-- 9. Вопросы -->
+<section class="razdel voprosy" id="voprosy">
+  <div class="wrap wrap--uzko">
+    <h2>Вопросы</h2>
+    <details class="vopros"><summary>Сколько стоит «Оскар»?<i class="ic" style="--i:url(icons/plus.svg)"></i></summary><p>Считаем под событие: дата, часы, нужен ли брендинг. Выберите их в расчёте выше, менеджер пришлёт сумму в WhatsApp.</p></details>
+    <details class="vopros"><summary>Сколько времени нужно на монтаж?<i class="ic" style="--i:url(icons/plus.svg)"></i></summary><p>Около полутора часов. Можем собрать будку заранее, до гостей, без доплаты.</p></details>
+    <details class="vopros"><summary>Кто будет у будки?<i class="ic" style="--i:url(icons/plus.svg)"></i></summary><p>Наш администратор, всё время работы.</p></details>
+    <details class="vopros"><summary>А если площадка за МКАД?<i class="ic" style="--i:url(icons/plus.svg)"></i></summary><p>Доставка в пределах МКАД входит в аренду. Про площадку за МКАД напишите менеджеру в WhatsApp.</p></details>
+    <a class="knopka voprosy__knopka" href="#raschet">Проверить дату</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="podval">
+  <div class="wrap podval__in">
+    <div class="podval__brend">
+      <img src="img/logo-instabudka-white.svg" alt="Инстабудка" width="140" height="44" loading="lazy">
+      <p>13 лет · Москва, Варшавское шоссе, 33, стр. 4<br>Пн–Пт 10:00–20:00</p>
+    </div>
+    <ul class="podval__svyaz">
+      <li><a href="tel:+74951069777"><i class="ic" style="--i:url(icons/phone.svg)"></i>+7 495 106-97-77</a></li>
+      <li><a href="https://wa.me/79060982693" target="_blank" rel="noopener"><i class="ic" style="--i:url(icons/whatsapp-logo.svg)"></i>WhatsApp +7 906 098-26-93</a></li>
+      <li><a href="mailto:info@instabudka.ru"><i class="ic" style="--i:url(icons/envelope-simple.svg)"></i>info@instabudka.ru</a></li>
+      <li><a href="https://vk.com/instabudka" target="_blank" rel="noopener"><i class="ic" style="--i:url(icons/arrow-right.svg)"></i>ВКонтакте</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div class="nizbar" data-nizbar>
+  <a class="knopka" href="#raschet" data-nizbar-data>Проверить дату</a>
+  <a class="krug" href="https://wa.me/79060982693" target="_blank" rel="noopener" aria-label="Написать в WhatsApp"><i class="ic" style="--i:url(icons/whatsapp-logo.svg)"></i></a>
+</div>
+
+<script src="js/gsap.min.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
